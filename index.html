@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweet UI</title>
+    <link rel="stylesheet" href="character.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="tweet-box">
+        <!-- Avatar -->
+        <div class="avatar">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAPmvcOfPODp0CHgVbn66kt4DahUNG_UPfgEXvAyJdzP4C8BxTXc1cqKPRVHGKzNdHvi5KV0vAV6pHLp5wzm-Ibp2bWIz9befOMn2JWwxvtJH7yWZf5-wmckI8JG0Bj5HcH22OvL7BraC14upepbtKlRh2qHaVKEhQGhnjWt2o4O2_v-Jj-iNabSpu6yiUvFf6e-ZJP3Uv5WWD18V0GSSlD7PBtkNNTwSwJ18L0AfzczLcWt3NIz6eDlOos1ek5Dm7tZ7dQZHuezI"
+          />
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+          <button class="reply-btn">
+            Everyone can reply
+            <span class="material-symbols-outlined">expand_more</span>
+          </button>
+
+          <div class="textarea-box">
+            <textarea
+              class="text"
+              placeholder="What's your curation today?"
+            ></textarea>
+
+            <!-- Progress -->
+
+            <div class="progress">
+              <div class="circle">
+                <span class="increase">0%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="line"></div>
+    </main>
+    <script src="character.js"></script>
+  </body>
+</html>
