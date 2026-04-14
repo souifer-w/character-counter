@@ -29,5 +29,6 @@ text.addEventListener("keyup", (event) => {
     circle.classList.remove("finish");
     increase.classList.remove("is-done");
     increase.innerHTML = `${progress}%`;
+    circle.style.background = `conic-gradient(#5900ff  ${progress}%, #5900ff ${progress}%)`;
   }
 });
